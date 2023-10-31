@@ -106,12 +106,17 @@ header h1{
     color: var(--whiteColor);
 }
 
+header h1 #SecondPartOfTitle{
+    animation: fadeIn 3s ease-in forwards;
+}
+
 header h1 #ThirdPartOfTitle{
     font-style: normal;
     font-size: 13rem;
     font-weight: 700;
     line-height: 20rem;
     text-transform: uppercase;
+    animation: fadeIn 6s ease-in forwards;
 }
 
 header p{
@@ -120,6 +125,7 @@ header p{
     font-weight: 400;
     color: var(--whiteColor);
     margin: 5rem 0rem 5rem 5rem;
+    animation: fadeIn 9s ease-in forwards;
 }
 
 /* Main Content */
@@ -141,6 +147,7 @@ main #Projetos{
     text-align: center;
     color: #444649;
     margin: 5rem 0 5rem 0;
+    animation: fadeIn 3s ease-in forwards
 }
 
 main #Sobre .underline,
@@ -149,6 +156,7 @@ main #Projetos .underline {
     margin: 0 auto;
     height: 4px;
     width: 70px;
+    animation: fadeIn 3.5s ease-in forwards
 }
 
 main #gridSobreAndSkillsWrapper {
@@ -167,6 +175,7 @@ main #gridSobreAndSkillsWrapper .cardItem h3{
     text-align: left;
     color: #444649;
     margin: 0 0 2rem 0;
+    animation: fadeIn 6s ease-in forwards
 }
 
 main #gridSobreAndSkillsWrapper .cardItem p a{
@@ -254,6 +263,8 @@ footer #scrollToHome{
     line-height: 4rem;
     margin: 0 0 6rem 0;
     color: var(--whiteColor);
+    animation: float 4s ease-in-out infinite,
+    fadeIn 4s ease-in forwards;
 }
 
 
@@ -266,6 +277,18 @@ footer #socialMedias i{
     margin: 0rem 2rem 0rem 0rem;
     font-size: 4rem;
     color: var(--whiteColor);
+}
+
+footer #socialMedias i.fa-brands.fa-square-github{
+    animation: float 3.2s ease-in-out infinite;
+}
+
+footer #socialMedias i.fa-brands.fa-instagram{
+    animation: float 3.5s ease-in-out infinite;
+}
+
+footer #socialMedias i.fa-brands.fa-linkedin{
+    animation: float 3.8s ease-in-out infinite;
 }
 
 footer #socialMedias i.fa-brands.fa-square-github:hover{
@@ -292,4 +315,27 @@ footer p{
     line-height: 6rem;
     margin: 1rem 0rem 0rem 0rem;
     color: var(--whiteColor);
+}
+
+
+/* KeyFrames */
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
 }
