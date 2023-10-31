@@ -1,29 +1,27 @@
-[
-    {
-        "skills":[
-            "JAVA",
-            "SpringBoot",
-            "PHP",
-            "Laravel",
-            "WordPress",
-            "JavaScript",
-            "Express",
-            "Node.js",
-            "NPM",
-            "handlebars",
-            "C",
-            "C#",
-            "HTML",
-            "CSS",
-            "Figma",
-            "Canva",
-            "GIT",
-            "GitHub",
-            "SQL",
-            "Sql Server",
-            "MySql",
-            "MongoDB",
-            "sequelize"
-        ]
-    }
-]
+{
+    "skills":[
+        "JAVA",
+        "SpringBoot",
+        "PHP",
+        "Laravel",
+        "WordPress",
+        "JavaScript",
+        "Express",
+        "Node.js",
+        "NPM",
+        "handlebars",
+        "C",
+        "C#",
+        "HTML",
+        "CSS",
+        "Figma",
+        "Canva",
+        "GIT",
+        "GitHub",
+        "SQL",
+        "Sql Server",
+        "MySql",
+        "MongoDB",
+        "sequelize"
+    ]
+}
