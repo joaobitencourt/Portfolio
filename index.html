@@ -7,9 +7,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Josefin+Sans:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/public/style/style.css">
     <script src="/scripts/"></script>
     <title>Portifolio</title>
@@ -20,10 +20,10 @@
 
             <nav>
                 <ul>
-                    <li class="navItem"><a class="navigationLinks" href="#">Home</a></li>
-                    <li class="navItem"><a class="navigationLinks" href="#">Sobre</a></li>
-                    <li class="navItem"><a class="navigationLinks" href="#">Projetos</a></li>
-                    <li class="navItem"><a class="navigationLinks" href="#">Contato</a></li>
+                    <li class="navItem"><a class="navigationLinks" href="#Home">Home</a></li>
+                    <li class="navItem"><a class="navigationLinks" href="#Sobre">Sobre</a></li>
+                    <li class="navItem"><a class="navigationLinks" href="#Projetos">Projetos</a></li>
+                    <li class="navItem"><a class="navigationLinks" href="#Contato">Contato</a></li>
                 </ul>
             </nav>
 
@@ -36,7 +36,8 @@
             
         </header>
         <main>
-            <h1>Projetos</h1>
+            <h1 id="Projetos">Projetos  <section class="underline"></section> </h1>
+           
             <section id="gridCardFilter">
 
             </section>
@@ -70,8 +71,22 @@
                 </section>
             </section>
         </main>
+        
         <footer>
-            sdasdasfa
+            <i id="scrollToHome" class="fa-solid fa-angles-up"></i>
+            
+            <section id="socialMedias">
+                <a href="https://github.com/joaobitencourt" target="_blank">
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+                <a href="https://www.instagram.com/digitaltasks_/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/joaobitencourtdev/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </section>
+            <p>by João Vitor Bitencourt &#169;2023</p>
         </footer>
     </div>
 </body>
