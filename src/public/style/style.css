@@ -159,6 +159,8 @@ main #Projetos .underline {
     animation: fadeIn 3.5s ease-in forwards
 }
 
+/* Skills */
+
 main #gridSobreAndSkillsWrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -194,7 +196,7 @@ main #gridSobreAndSkillsWrapper .cardItem:first-child p{
 }
 
 main #gridSobreAndSkillsWrapper .cardItem:first-child 
-p:first-child::first-letter{
+#primeiro::first-letter {
     font-size: 4rem;
     font-weight: 700;
 }
@@ -214,6 +216,8 @@ main #gridSobreAndSkillsWrapper .cardItem:nth-child(2) #skillsWrapper p{
     font-weight: 600;
     color: #666;
 }
+
+/* Projetos */
 
 main #gridCardsWrapper{
     display: grid;
@@ -263,10 +267,12 @@ footer #scrollToHome{
     line-height: 4rem;
     margin: 0 0 6rem 0;
     color: var(--whiteColor);
-    animation: float 4s ease-in-out infinite,
-    fadeIn 4s ease-in forwards;
+    transition: .5ms ease-in-out;
 }
 
+footer #scrollToHome:hover{
+    animation: float 4s ease-in-out infinite;
+}
 
 footer #socialMedias{
     display: flex;
