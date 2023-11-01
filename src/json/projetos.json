@@ -1,0 +1,47 @@
+[
+    {   
+        "id": "1",
+        "name":"Akakef",
+        "funcao": "Frontend Developer",
+        "descricao": "Na Akakef atutei como frontend developer, desenvolvendo o design no figma ",
+        "tipoDeProjeto":"Profissional",
+        "projetoLink": "https://www.akakef.com/",
+        "imagens":["https://picsum.photos/200/300","https://picsum.photos/200/300"]
+    },
+    {   
+        "id": "2",
+        "name":"Construtora Smeaton",
+        "funcao": ["FonteEnd e Desinger"],
+        "descricao": "Fiz um design no figma e fiquei responsável pela criação do projeto WordPress",
+        "tipoDeProjeto":"Profissional",
+        "projetoLink": "https://construtorasmeaton.com.br/",
+        "imagens":["https://picsum.photos/200/300","https://picsum.photos/200/300","https://picsum.photos/200/300"]
+    },
+    {   
+        "id": "3",
+        "name":"Calculadora de preços MercadoLivre",
+        "funcao": ["FonteEnd e BackEnd"],
+        "descricao": "",
+        "tipoDeProjeto":"Autonomo",
+        "projetoLink": "https://joaobitencourt.github.io/calculadoraOrcamentoML/",
+        "imagens":["calculadora mercado livre.png","https://picsum.photos/200/300","https://picsum.photos/200/300"]
+    },
+    {   
+        "id": "4",
+        "name":"Whatsapp clone",
+        "funcao": ["FonteEnd e Desinger"],
+        "descricao": "",
+        "tipoDeProjeto":"Autonomo",
+        "projetoLink": "https://github.com/joaobitencourt/UI_WHATSAPP_CLONE",
+        "imagens":["whatsappClone.png","https://picsum.photos/200/300","https://picsum.photos/200/300"]
+    },
+    {   
+        "id": "5",
+        "name":"Ecomerce",
+        "funcao": ["FullStack"],
+        "descricao": "Ecomerce completo desde a analise, backend e frontend",
+        "tipoDeProjeto":"Autonomo",
+        "projetoLink": "https://github.com/joaobitencourt/AKAKEF_",
+        "imagens":["ecomerceVestuario.png","https://picsum.photos/200/300","https://picsum.photos/200/300"]
+    }
+]
