@@ -401,7 +401,7 @@ footer p{
 
     header h1{
         letter-spacing: .5rem;
-        margin: 5rem 0rem 0rem 2rem;
+        margin: 5rem 0rem 0rem 1.5rem;
     }
 
     main #gridCardsWrapper{
@@ -425,12 +425,7 @@ footer p{
 
     header h1{
         letter-spacing: .5rem;
-        margin: 5rem 0rem 0rem 3rem;
-    }
-
-    main #gridCardsWrapper{
-        grid-template-columns: 1fr;
-        transition: 1s all ease-in-out;
+        margin: 5rem 0rem 0rem 2rem;
     }
 
     main #gridSobreAndSkillsWrapper {
@@ -458,6 +453,10 @@ footer p{
 
 /* Medium devices */
 @media (min-width: 768px) { 
+    header h1{
+        letter-spacing: 1rem;
+        margin: 5rem 0rem 0rem 5rem;
+    }
     main #gridCardsWrapper{
         grid-template-columns: 1fr 1fr;
         transition: 1s all ease-in-out;
