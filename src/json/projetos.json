@@ -15,7 +15,7 @@
         "descricao": "Fiz um design no figma e fiquei responsável pela criação do projeto WordPress",
         "tipoDeProjeto":"Profissional",
         "projetoLink": "https://construtorasmeaton.com.br/",
-        "imagens":["https://picsum.photos/200/300","https://picsum.photos/200/300","https://picsum.photos/200/300"]
+        "imagens":["./public/img/construtoraSmeaton.jfif","https://picsum.photos/200/300","https://picsum.photos/200/300"]
     },
     {   
         "id": "3",
@@ -24,7 +24,7 @@
         "descricao": "",
         "tipoDeProjeto":"Autonomo",
         "projetoLink": "https://joaobitencourt.github.io/calculadoraOrcamentoML/",
-        "imagens":["calculadora mercado livre.png","https://picsum.photos/200/300","https://picsum.photos/200/300"]
+        "imagens":["./public/img/calculadora mercado livre.png","https://picsum.photos/200/300","https://picsum.photos/200/300"]
     },
     {   
         "id": "4",
@@ -33,7 +33,7 @@
         "descricao": "",
         "tipoDeProjeto":"Autonomo",
         "projetoLink": "https://github.com/joaobitencourt/UI_WHATSAPP_CLONE",
-        "imagens":["whatsappClone.png","https://picsum.photos/200/300","https://picsum.photos/200/300"]
+        "imagens":["./public/img/whatsappClone.png","https://picsum.photos/200/300","https://picsum.photos/200/300"]
     },
     {   
         "id": "5",
@@ -42,6 +42,6 @@
         "descricao": "Ecomerce completo desde a analise, backend e frontend",
         "tipoDeProjeto":"Autonomo",
         "projetoLink": "https://github.com/joaobitencourt/AKAKEF_",
-        "imagens":["ecomerceVestuario-transformed.png","https://picsum.photos/200/300","https://picsum.photos/200/300"]
+        "imagens":["./public/img/ecomerceVestuario-transformed.png","https://picsum.photos/200/300","https://picsum.photos/200/300"]
     }
 ]

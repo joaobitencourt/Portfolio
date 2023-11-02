@@ -6,7 +6,7 @@ fetch("./src/json/projetos.json").then((response) => {
             gridCardsWrapper.innerHTML += 
             `
             <section class="cardItem">
-                    <img src="./public/img/${dado.imagens[0]}" alt="" srcset="">
+                    <img src="${dado.imagens[0]}" alt="" srcset="">
                     <section class="cardItemDados">
                         <h3>${dado.name}</h3>
                         <p>${dado.descricao}</p>
