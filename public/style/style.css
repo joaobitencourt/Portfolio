@@ -415,6 +415,10 @@ footer p{
         margin: 2rem;    
         transition: 1s all ease-in-out;
     }
+
+    main #gridSobreAndSkillsWrapper .cardItem:first-child p{
+        letter-spacing: 0.1rem;
+    }
 }
 
 @media (min-width: 350px) { 
@@ -438,13 +442,32 @@ footer p{
 
 }
 
+@media (max-width: 350px){
+    main #gridSobreAndSkillsWrapper .cardItem:nth-child(2) #skillsWrapper p {
+        padding: 0.5rem 1rem;
+        cursor: default;
+        margin-bottom: 1.5rem;
+        margin-right: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    main #gridSobreAndSkillsWrapper .cardItem:first-child p{
+        font-size: 1rem;
+    }
+}
+
 /* Medium devices */
 @media (min-width: 768px) { 
     main #gridCardsWrapper{
         grid-template-columns: 1fr 1fr;
         transition: 1s all ease-in-out;
     }
+
+    main #gridSobreAndSkillsWrapper .cardItem:first-child p{
+        letter-spacing: 0.3rem;
+    }
 }
+
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -475,7 +498,7 @@ footer p{
     }
 
     main #gridCardsWrapper{
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         transition: 1s all ease-in-out;
     }
 }
