@@ -43,5 +43,23 @@
         "tipoDeProjeto":"Autonomo",
         "projetoLink": "https://github.com/joaobitencourt/AKAKEF_",
         "imagens":["./public/img/ecomerceVestuario-transformed.png","https://picsum.photos/200/300","https://picsum.photos/200/300"]
+    },
+    {   
+        "id": "6",
+        "name":"Mensageria Envio de email",
+        "funcao": ["BackEnd"],
+        "descricao": "Projeto para estudo de RabbitMQ, com envio de email ao ser cadastrado(consumer)",
+        "tipoDeProjeto":"Estudo",
+        "projetoLink": "https://github.com/joaobitencourt/emailComsumer",
+        "imagens":["https://picsum.photos/200/300","https://picsum.photos/200/300"]
+    },
+    {   
+        "id": "7",
+        "name":"Mensageria Envio de email",
+        "funcao": ["BackEnd"],
+        "descricao": "Projeto para estudo de RabbitMQ, com envio de email ao ser cadastrado(request)",
+        "tipoDeProjeto":"Estudo",
+        "projetoLink": "https://github.com/joaobitencourt/userRequest",
+        "imagens":["https://picsum.photos/200/300","https://picsum.photos/200/300"]
     }
 ]

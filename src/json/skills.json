@@ -22,6 +22,8 @@
         "Sql Server",
         "MySql",
         "MongoDB",
-        "sequelize"
+        "sequelize",
+        "RabbitMQ",
+        "Reddis"
     ]
 }
