@@ -137,6 +137,7 @@ header p{
 main{
     width: 100vw;
     height: 100%;
+    margin: 0 10rem 0 10rem;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -161,17 +162,19 @@ main #Projetos .underline {
     margin: 0 auto;
     height: 4px;
     width: 70px;
+
     animation: fadeIn 3.5s ease-in forwards
 }
 
 /* Skills */
 
 main #gridSobreAndSkillsWrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    align-items: center;
     gap: 10rem;
     margin: 5rem;    
-
 }
 
 main #gridSobreAndSkillsWrapper .cardItem h3{
