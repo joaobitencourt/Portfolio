@@ -1,101 +1,119 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Josefin+Sans:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="public/style/style.css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>João Vitor Bitencourt - Backend Developer</title>
+  <link rel="stylesheet" href="public/style/style.css">
 </head>
 <body>
-    <div id="contentWrapper">
-        <header>
-
-<!--             <nav>
-                <ul>
-                    <li id="Home" class="navItem"><a class="navigationLinks" href="#Home">Home</a></li>
-                    <li class="navItem"><a class="navigationLinks" href="#Sobre">Sobre</a></li>
-                    <li class="navItem"><a class="navigationLinks" href="#Projetos">Projetos</a></li>
-                    <li class="navItem"><a class="navigationLinks" href="#Contato">Contato</a></li>
-                </ul>
-            </nav> -->
-
-            <h1>Backend
-                <section id="SecondPartOfTitle"> Developer </section> 
-                <section id="ThirdPartOfTitle" >Portfolio</section>
-            </h1>
-
-            <p> 
-                João Vitor Bitencourt 
-            </p> 
-            
-            
-        </header>
-        <main>
-            
-            
-            <section id="gridSobreAndSkillsWrapper">
-
-                <section class="cardItem">
-                    <h3>Featured Work //</h3>
-                    <section id="gridCardFilter"></section>
-                    <section id="gridCardsWrapper"></section>
-                </section>
-
-                <section class="cardItem">
-                    <h3>Skills //</h3>
-                    <section id="skillsWrapper">
-                    </section>
-                </section>
-
-                <section class="cardItem">
-                    <h3>About //</h3>
-                    <p id="primeiro">
-                        Técnico em Informática, com um grande amor pela tecnologia, suas possibilidades e áreas. Principalmente a de programação Web, backend e dados. 
-                    </p>
-                    <p>
-                        Juntamente com um colega de faculdade criamos a <a href="https://www.instagram.com/digitaltasks_/" target="_blank">Digital Tasks</a>, um grupo de freeLancers com realização de trabalhos digitais como: UI/UX, sites em WP etc.. 
-                    </p>
-                    <p>
-                        Minhas experiências profissionais são todas como freelancer, sendo a <a href="https://construtorasmeaton.com.br/" target="_blank">construtora Sematon</a> o primeiro projeto da <a href="https://www.instagram.com/digitaltasks_/" target="_blank">Digital Tasks</a>.
-                    </p>
-                </section>
-
-            </section>
-
-<!--             <h1 id="Projetos">Projetos  <section class="underline"></section> </h1> -->
-           
-
-        </main>
-        
-        <footer id="Contato">
-            <a href="#Home">
-                <i id="scrollToHome" class="fa-solid fa-angles-up"></i>
-            </a>
-
-            <section id="socialMedias">
-                <a href="https://github.com/joaobitencourt" target="_blank">
-                    <i class="fa-brands fa-square-github"></i>
-                </a>
-                <a href="https://www.instagram.com/digitaltasks_/" target="_blank">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a  href="https://www.linkedin.com/in/joaobitencourtdev/" target="_blank">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-            </section>
-            <p>by João Vitor Bitencourt &#169;2023</p>
-        </footer>
-
-        <script src="./src/utils/scripts/skills.js"></script>
-        <script src="./src/utils/scripts/projetos.js"></script>
-        <!-- <script src="./src/json/skills.json"></script> -->
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar">
+    <div class="navbar-container">
+      <a href="/" class="navbar-logo">JVB</a>
+      <div class="navbar-links hidden-mobile"> 
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="navbar-links visible-mobile">
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
     </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <p id="hero-subtitle" class="hero-subtitle">Backend Developer</p>
+        <h1 id="hero-title" class="hero-title">João Vitor Bitencourt</h1>
+        <p class="hero-description">
+            Software Engineer with expertise in backend development, web programming, and data solutions.
+            I have a great appreciation about technology and its possibilities.
+        </p>
+        <div id="hero-buttons" class="hero-buttons">
+          <a href="#work" class="btn btn-primary">View Work</a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Featured Work -->
+  <section id="work" class="work-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Featured Work</h2>
+        <span class="title-accent">//</span>
+      </div>
+
+      <div id="projects-container" class="projects-grid">
+        <!-- Projects will be inserted here by JavaScript -->
+      </div>
+
+      <div id="pagination" class="pagination">
+        <!-- Pagination will be inserted here by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Skills</h2>
+        <span class="title-accent">//</span>
+      </div>
+
+      <div id="skills-container" class="skills-grid">
+        <!-- Skills will be inserted here by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About</h2>
+        <span class="title-accent">//</span>
+      </div>
+
+      <div id="about-content" class="about-content">
+        <!-- About content will be inserted here by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact-section">
+    <div class="container contact-container">
+      <h2 class="section-title contact-title">Let's work together</h2>
+      <p class="contact-description">
+        Have an interesting project or want to collaborate? Let's connect and create something amazing.
+      </p>
+      <a href="https://www.linkedin.com/in/joaobitencourtdev/?locale=en_US" class="btn btn-contact">
+        <span>✉</span> Get in Touch
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p class="footer-text">© 2025. João Vitor Bitencourt. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://github.com/joaobitencourt" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+        <a href="https://www.linkedin.com/in/joaobitencourtdev/" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- carregar GSAP/ScrollTrigger como scripts globais, antes do seu scripts.js normal (sem type="module") -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+  <script src="src/utils/scripts/scripts.js"></script>
 </body>
 </html>

@@ -1,0 +1,69 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Construtora Sematon",
+      "description": "Website for Sematon construction company, first project of Digital Tasks",
+      "tags": ["WordPress", "UI/UX", "Web Design"],
+      "url": "https://construtorasmeaton.com.br/"
+    },
+    {
+      "id": 2,
+      "title": "Calculadora de Preços ML",
+      "description": "Budget calculation and quote generation platform with responsive design",
+      "tags": ["Frontend", "HTML", "JavaScript", "CSS"],
+      "url": "https://joaobitencourt.github.io/calculadoraOrcamentoML/"
+    },
+    {
+      "id": 3,
+      "title": "Digital Tasks",
+      "description": "Freelance group specializing in digital services including UI/UX and WordPress development",
+      "tags": ["Freelance", "Management", "Services"],
+      "url": "https://www.instagram.com/digitaltasks_/"
+    },
+    {
+      "id": 4,
+      "title": "E-Commerce Platform",
+      "description": "Full-stack e-commerce solution with payment integration and inventory management",
+      "tags": ["FullStack", "HandleBars", "Node.js", "TypeScript", "Express", "MySQL", "Sequelize", "Fireabse Buckets"],
+      "ur": "https://github.com/joaobitencourt/AKAKEF_"
+    },
+    {
+      "id": 5,
+      "title": "Mensageria Envio de Emails",
+      "description": "Project for studying RabbitMQ, with email sent upon registration (request)",
+      "tags": ["BackEnd", "RebbitMQ", "JAVA", "SpringBoot", "H2DataBase"],
+        "url": "https://github.com/joaobitencourt/emailComsumer"
+    },
+    {
+      "id": 6,
+      "title": "Mensageria Envio de Emails",
+      "description": "Project for studying RabbitMQ, with email sent upon registration (request).",
+      "tags": ["BackEnd", "RebbitMQ", "JAVA", "SpringBoot", "H2DataBase"],
+        "url": "https://github.com/joaobitencourt/userRequest"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Backend",
+      "items": ["Java", "SpringBoot", "Node.js", "Express", "PHP", "Laravel", "Python", "FastAPI"]
+    },
+    {
+      "category": "Frontend",
+      "items": ["HTML", "CSS", "JavaScript", "React"]
+    },
+    {
+      "category": "Databases",
+      "items": ["MySQL", "SQL Server", "MongoDB", "sequelize", "PostgreSQL", "Firebase"]
+    },
+    {
+      "category": "Tools & Other",
+      "items": ["Git", "GitHub", "RabbitMQ", "Redis", "Figma", "WordPress"]
+    }
+  ],
+  "about": [
+    "I'm a Software Engineer with a great appreciation for technology and its possibilities. My focus areas are web programming, backend development, and data solutions. I believe in creating robust, scalable applications that solve real problems.",
+    "Together with a college colleague, I founded Digital Tasks, a freelance group specializing in digital services. Our first major project was Construtora Sematon, a comprehensive website that demonstrated our commitment to quality and client satisfaction.",
+    "That was my beginning, after some freelance work that gave me a lot of knowledge, I am currently working as a Software Engineering Analyst at Accenture, the largest global digital services consulting firm."
+  ]
+}
